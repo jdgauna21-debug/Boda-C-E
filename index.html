@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Nuestra Boda · C & E</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fuente manuscrita tipo logo -->
+  <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background-color: #f3efe9; /* crudo */
+      font-family: 'Montserrat', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      background-color: #ffffff;
+      width: 90%;
+      max-width: 900px;
+      padding: 40px 30px;
+      border-radius: 22px;
+      text-align: center;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+    }
+
+    .logo {
+      max-width: 250px;
+      margin-bottom: 25px;
+    }
+
+    .titulo-boda {
+      font-family: 'Tangerine', cursive;
+      font-size: 4.5em;
+      margin: 0;
+    }
+
+    .fecha {
+      font-size: 1.1em;
+      letter-spacing: 2px;
+      margin: 10px 0 25px;
+      color: #666;
+      text-transform: uppercase;
+    }
+
+    .texto {
+      font-size: 1.1em;
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    input[type="file"] {
+      font-size: 1em;
+      margin-bottom: 25px;
+    }
+
+    button {
+      background-color: #c9a96a;
+      color: white;
+      border: none;
+      padding: 14px 34px;
+      font-size: 1em;
+      border-radius: 30px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #b8975d;
+    }
+
+.firma {
+  margin-top: 30px;
+  font-size: 1.3em;
+  text-align: right;
+  padding-right: 40px;
+  color: #777;
+}
+    small {
+      display: block;
+      margin-top: 25px;
+      color: #999;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+
+    <img src="logo.png" alt="Nuestra Boda C & E" class="logo">
+
+    <h1 class="titulo-boda">Nuestra Boda</h1>
+
+    <div class="fecha">❤️ Febrero 2026</div>
+
+    <p class="texto">
+      Gracias por ser parte de nuestra historia.<br>
+      Dejanos tu foto o video para recordar esta noche tan especial.
+    </p>
+
+    <input type="file" accept="image/,video/">
+
+    <br>
+
+    <button>Subir recuerdo</button>
+
+    <div class="firma">Con amor, C & E 🤍</div>
+
+  </div>
+</body>
+</html>
